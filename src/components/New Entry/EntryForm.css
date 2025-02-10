@@ -1,0 +1,42 @@
+
+.entry-form__con {
+    width: 100%;
+}
+
+.entry-form__con > form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.3rem;
+}
+
+.con > label {
+    font-weight: bold;
+    color: #222;
+}
+
+.con > input {
+    width: 90%;
+    border: 1px solid #333;
+    padding: 0.3rem 0.1rem;
+}
+
+.entry-form__con > form > button {
+    border: 1px solid #333;
+    background: #333;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+

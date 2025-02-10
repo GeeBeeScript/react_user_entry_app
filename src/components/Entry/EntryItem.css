@@ -1,0 +1,9 @@
+
+.entry-item {
+    padding: 0.4rem 0.5rem;
+    width: 90%;
+    border: 1px solid #444;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
